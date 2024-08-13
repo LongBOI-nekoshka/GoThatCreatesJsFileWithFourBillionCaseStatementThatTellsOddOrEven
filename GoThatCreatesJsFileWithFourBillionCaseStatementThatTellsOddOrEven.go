@@ -10,6 +10,7 @@ import (
 
 func main() {
 
+	os.Mkdir("jsFile",0777)
 	os.Remove("jsFile/fourBillionCase.js");
 	f,err:= os.Create("jsFile/fourBillionCase.js");
 	if(err != nil) {
