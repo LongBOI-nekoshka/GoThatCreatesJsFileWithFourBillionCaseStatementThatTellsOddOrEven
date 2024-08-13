@@ -1,0 +1,3 @@
+module GoThatCreatesJsFileWithFourBillionCaseStatementThatTellsOddOrEven
+
+go 1.22.5
